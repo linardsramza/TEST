@@ -1,0 +1,378 @@
+/**
+ * @author Linards Ramza <linuks5@inbox.lv>
+ */
+.middlediv {
+position: absolute;
+width: 460px;
+height: 460px;
+border: 1px solid #49abfe;
+background-color: white;
+margin-top: 170px;
+left: 660px;
+ z-index: 10;
+}
+.behinddiv {
+  width: 920px;
+  height: 420px;
+  background-color: rgba(15, 26, 47, 0.9);
+    margin-top: 190px;
+    margin-left: 220px;
+}
+div{
+  display: inline-block;
+}
+
+.leftdiv{
+  float: left;
+width: 460px;
+  height: 420px;
+
+}
+.rightdiv{
+  
+width: 460px;
+  height: 420px;
+   
+}
+
+button{
+  display: inline-block;
+}
+#signupbtn1{
+    background: none;
+    width: 140px;
+    height: 50px;
+}
+#loginbtn1{
+    background: none;
+    width: 140px;
+    height: 50px;
+}
+footer {
+    width: 280px;
+   
+    
+    padding-top: 130px;
+    margin: 0 auto;
+    color: #a7b3cb;
+    font-size: 13px;
+  
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 35px;
+  
+    
+}
+.magebitlogo{
+  background: url(logo.png);
+  background-position-x: 230px;
+  background-repeat: no-repeat;
+  width: 280px;
+  color: #3e495e;
+}
+.logindiv{
+  margin-left: 90px;
+  margin-top: 90px;
+}
+.emaillogo{
+  background: url(email.png);
+  width: 280px;
+  background-position-x: 260px;
+  background-repeat: no-repeat;
+}
+.passwordlogo{
+  background: url(password.png);
+  width: 280px;
+  background-position-x: 260px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.signupdiv{
+  margin-left: 90px;
+  margin-top: 65px;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+}
+.namelogo{
+    background: url(name.png);
+  width: 280px;
+  background-position-x: 260px;
+  background-repeat: no-repeat;
+}
+sup{
+  color: red;
+}
+.behinddivbutton{
+    width: 140px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+		background-image: url("fons.png");
+		 font-family: 'Source Sans Pro';
+		background-repeat: no-repeat;
+    width: 1360px;
+	}
+  .behinddivbutton{
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #49abfe;
+    font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.frontdivbuttonlogin{
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    background-color: #f89a35;
+    border: none;
+    font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 100px;
+  z-index: 50;
+}
+.frontdivbuttonsignup{
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    background-color: #f89a35;
+    border: none;
+    font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0;
+  z-index: 50;
+}
+.frontdivbutton:hover{
+  background-color: #f8bf35;
+  color: white;
+  border: none;
+}
+.forgotlink{
+ color: #8495b7;
+ font-size: 16px;
+ text-decoration: none;
+ position: absolute;
+  bottom: 115px;
+  left: 220px;
+  z-index: 50;
+  margin-left: 95px; 
+}
+.forgotlink:hover{
+ color: #8495b7;
+ font-size: 16px;
+ text-decoration: none;
+}
+p{
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+#password, #email, #name {
+    height: 25px;
+    width: 280px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #cbd2df;
+    box-shadow: none;
+    margin-right: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #3e495e;
+    line-height: 45px;
+    font-size: 16;
+    letter-spacing: 1px;
+}
+
+label{
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: #8495b7;
+  height: 20px;
+}
+.magebitlogo{
+  color: #3e495e;
+}
+#password:focus{
+  height: 35px;
+}
+#email:focus{
+  height: 35px;
+}
+#name:focus{
+  height: 35px;
+}
+#password:focus + .passwordlogo{
+  text-transform: uppercase;
+  background: url(passwordactive.png);
+  width: 280px;
+  background-position-x: 260px;
+  background-repeat: no-repeat;
+  font-size: 11px;
+  font-weight: 700;
+}
+#email:focus + .emaillogo{
+  text-transform: uppercase;
+  background: url(emailactive.png);
+  width: 280px;
+  background-position-x: 260px;
+  background-repeat: no-repeat;
+  font-size: 11px;
+  font-weight: 700;
+}
+#name:focus + .namelogo{
+  text-transform: uppercase;
+  background: url(nameactive.png);
+  width: 280px;
+  background-position-x: 260px;
+  background-repeat: no-repeat;
+  font-size: 11px;
+  font-weight: 700;
+}
+.h3left{
+  width: 300px;
+  margin-left: 80px;
+  color: white; 
+  margin-top: 75px;
+  margin-bottom: 0px; 
+  font-weight: 300; 
+  font-size: 28px;
+}
+.hrleft{
+  width: 40px; 
+  margin-left: 80px; 
+  color: #49abfe; 
+  border: 2px solid #49abfe; 
+  margin-top: 35px; 
+  margin-bottom: 30px;
+}
+.pleft{
+  width: 300px; margin-left: 80px; color: white; font-size: 16px;
+}
+#signupbtn1{
+    width: 140px;
+    height: 50px;
+    margin-left: 80px;
+    background: rgba(255,255,255, 0.0);
+}
+#signupbtn2{
+    width: 140px;
+    height: 50px;
+    margin-left: 80px; 
+    position: absolute; 
+    left: 220px;
+    background: rgba(255,255,255, 0.0);
+}
+.h3right{
+  width: 300px; 
+  margin-left: 80px; 
+  color: white; 
+  margin-top: 100px; 
+  font-weight: 300; 
+  font-size: 28px; 
+  margin-bottom: 0px;
+}
+.hrright{
+  width: 40px; 
+  margin-left: 80px; 
+  color: #49abfe; 
+  border: 2px solid #49abfe; 
+  margin-top: 35px; 
+  margin-bottom: 30px;
+}
+.pright{
+  width: 310px; 
+  margin-left: 80px; 
+  color: white; 
+  font-size: 16px;
+}
+#loginbtn1{
+    width: 140px;
+    height: 50px;
+    margin-left: 80px;
+    background: rgba(255,255,255, 0.0);
+}
+#loginbtn2{
+    width: 140px;
+    height: 50px;
+    margin-left: 80px; 
+    position: absolute; 
+    left: 680px;
+    background: rgba(255,255,255, 0.0);
+}
+.hrmiddle{
+  width: 40px; 
+  margin-left: 0px; 
+  color: #49abfe; 
+  border: 2px solid #49abfe; 
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.form-group{
+  display: flex; 
+  flex-direction: column-reverse;
+}
+.signupdiv{
+  margin-left: 90px;
+  margin-top: 65px;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  height: 340px;
+}
+#signupbtn1:hover{
+    width: 140px;
+    height: 50px;
+    margin-left: 80px;
+    background: #49abfe;
+    border: 2px solid #49abfe;
+}
+#signupbtn2:hover{
+    width: 140px;
+    height: 50px;
+    margin-left: 80px; 
+    position: absolute; 
+    left: 220px;
+    background: #49abfe;
+    border: 2px solid #49abfe;
+}
+#loginbtn1:hover{
+    width: 140px;
+    height: 50px;
+    margin-left: 80px;
+    background: #49abfe;
+    border: 2px solid #49abfe;
+
+}
+#loginbtn2:hover{
+    width: 140px;
+    height: 50px;
+    margin-left: 80px; 
+    position: absolute; 
+    left: 680px;
+    background: #49abfe;
+    border: 2px solid #49abfe;
+}
